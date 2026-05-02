@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="60">
+			<Group>Horizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="61"/>
+			<ChildItems>
+				<InputField name="Наименование" id="4">
+					<DataPath>Объект.Description</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+				</InputField>
+				<InputField name="Код" id="1">
+					<DataPath>Объект.Code</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="КодКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="3"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа</v8:content>
+				</v8:item>
+			</Title>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="Руководитель" id="10">
+			<DataPath>Объект.Руководитель</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РуководительКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="РуководительРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<Pages name="Страницы" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<Page name="ГруппаСписокДляСогласования" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Список для согласования</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСписокДляСогласованияРасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<Table name="СписокДляСогласования" id="17">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.СписокДляСогласования</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СписокДляСогласованияКонтекстноеМеню" id="18"/>
+							<AutoCommandBar name="СписокДляСогласованияКоманднаяПанель" id="19"/>
+							<ExtendedTooltip name="СписокДляСогласованияРасширеннаяПодсказка" id="20"/>
+							<SearchStringAddition name="СписокДляСогласованияСтрокаПоиска" id="21">
+								<AdditionSource>
+									<Item>СписокДляСогласования</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокДляСогласованияСтрокаПоискаКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="СписокДляСогласованияСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокДляСогласованияСостояниеПросмотра" id="24">
+								<AdditionSource>
+									<Item>СписокДляСогласования</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокДляСогласованияСостояниеПросмотраКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="СписокДляСогласованияСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокДляСогласованияУправлениеПоиском" id="27">
+								<AdditionSource>
+									<Item>СписокДляСогласования</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокДляСогласованияУправлениеПоискомКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="СписокДляСогласованияУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокДляСогласованияНомерСтроки" id="30">
+									<DataPath>Объект.СписокДляСогласования.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокДляСогласованияНомерСтрокиКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="СписокДляСогласованияНомерСтрокиРасширеннаяПодсказка" id="32"/>
+								</LabelField>
+								<InputField name="СписокДляСогласованияСотрудник" id="33">
+									<DataPath>Объект.СписокДляСогласования.Сотрудник</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СписокДляСогласованияСотрудникКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="СписокДляСогласованияСотрудникРасширеннаяПодсказка" id="35"/>
+								</InputField>
+								<CheckBoxField name="СписокДляСогласованияСогласован" id="36">
+									<DataPath>Объект.СписокДляСогласования.Согласован</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="СписокДляСогласованияСогласованКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="СписокДляСогласованияСогласованРасширеннаяПодсказка" id="38"/>
+								</CheckBoxField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаИсполнители" id="39">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исполнители</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаИсполнителиРасширеннаяПодсказка" id="40"/>
+					<ChildItems>
+						<Table name="Исполнители" id="41">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<DataPath>Объект.Исполнители</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ИсполнителиКонтекстноеМеню" id="42"/>
+							<AutoCommandBar name="ИсполнителиКоманднаяПанель" id="43"/>
+							<ExtendedTooltip name="ИсполнителиРасширеннаяПодсказка" id="44"/>
+							<SearchStringAddition name="ИсполнителиСтрокаПоиска" id="45">
+								<AdditionSource>
+									<Item>Исполнители</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсполнителиСтрокаПоискаКонтекстноеМеню" id="46"/>
+								<ExtendedTooltip name="ИсполнителиСтрокаПоискаРасширеннаяПодсказка" id="47"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ИсполнителиСостояниеПросмотра" id="48">
+								<AdditionSource>
+									<Item>Исполнители</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсполнителиСостояниеПросмотраКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="ИсполнителиСостояниеПросмотраРасширеннаяПодсказка" id="50"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ИсполнителиУправлениеПоиском" id="51">
+								<AdditionSource>
+									<Item>Исполнители</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ИсполнителиУправлениеПоискомКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="ИсполнителиУправлениеПоискомРасширеннаяПодсказка" id="53"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="ИсполнителиНомерСтроки" id="54">
+									<DataPath>Объект.Исполнители.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИсполнителиНомерСтрокиКонтекстноеМеню" id="55"/>
+									<ExtendedTooltip name="ИсполнителиНомерСтрокиРасширеннаяПодсказка" id="56"/>
+								</LabelField>
+								<InputField name="ИсполнителиСотрудник" id="57">
+									<DataPath>Объект.Исполнители.Сотрудник</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="ИсполнителиСотрудникКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="ИсполнителиСотрудникРасширеннаяПодсказка" id="59"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Проекты</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+</Form>
