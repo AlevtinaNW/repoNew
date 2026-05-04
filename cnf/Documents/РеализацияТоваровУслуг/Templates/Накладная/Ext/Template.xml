@@ -130,6 +130,12 @@
 		</columnsItem>
 	</columns>
 	<rowsItem>
+		<index>0</index>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>1</index>
 		<row>
 			<columnsID>f8c5f167-49e6-4e36-add6-546bbae92c07</columnsID>
@@ -146,6 +152,13 @@
 					</tl>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<indexTo>3</indexTo>
+		<row>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -242,6 +255,13 @@
 					<parameter>Контрагент</parameter>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<indexTo>10</indexTo>
+		<row>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -348,6 +368,13 @@
 		</row>
 	</rowsItem>
 	<rowsItem>
+		<index>13</index>
+		<indexTo>14</indexTo>
+		<row>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
 		<index>15</index>
 		<row>
 			<columnsID>b62b3c03-2014-431e-abab-27d98768524e</columnsID>
@@ -369,6 +396,12 @@
 					<parameter>СуммаДокумента</parameter>
 				</c>
 			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<empty>true</empty>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -479,8 +512,8 @@
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
-	<font faceName="Arial" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute"/>
-	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute"/>
+	<font faceName="Arial" height="16" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Arial" height="8" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
 	<format>
 		<width>16</width>
 	</format>

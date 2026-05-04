@@ -60,7 +60,7 @@
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Catalog.Организации.Form.ФормаЭлемента</DefaultObjectForm>
+			<DefaultObjectForm>Catalog.Организации.Form.ФормаЭлементаОбФ</DefaultObjectForm>
 			<DefaultFolderForm/>
 			<DefaultListForm>Catalog.Организации.Form.ФормаСписка</DefaultListForm>
 			<DefaultChoiceForm/>
@@ -167,7 +167,7 @@
 					<DataHistory>Use</DataHistory>
 				</Properties>
 			</Attribute>
-			<Form>ФормаЭлемента</Form>
+			<Form>ФормаЭлементаОбФ</Form>
 			<Form>ФормаЭлементаВариант1</Form>
 			<Form>ФормаСписка</Form>
 		</ChildObjects>
