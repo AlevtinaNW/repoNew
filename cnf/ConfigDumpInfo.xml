@@ -14,6 +14,7 @@
 		<Metadata name="Catalog.Договоры" id="bf9a2412-1a8d-4a8a-b4d2-6a0f9e6e2a62" configVersion="995c901873e46c449fe98ad3ebfeeb4200000000"/>
 		<Metadata name="Catalog.Договоры.Form.ФормаСписка" id="508b5125-d4c2-4594-aff2-3d00fa22f732" configVersion="4887cc83703a094aab731528a2005ceb00000000"/>
 		<Metadata name="Catalog.Договоры.Form.ФормаСписка.Form" id="508b5125-d4c2-4594-aff2-3d00fa22f732.0" configVersion="33be9b496039bc4991a4787ca01fc38100000000"/>
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="b6d90d9c-161f-4d3d-a2a1-ee4ff42c1a05" configVersion="e1f942adfd0dbb4f8cd9ac26aa53ccd200000000"/>
 		<Metadata name="Catalog.ЗначенияСвойствОбъектов" id="930e3562-ccbb-49f5-bf3d-7ad71b03f4e8" configVersion="a1bbcce08337dd449673d869d33949f800000000"/>
 		<Metadata name="Catalog.Контрагенты" id="32a7326a-5373-4df7-85f1-fb1de9bc640f" configVersion="5d3735982c50d64c93b1445443bcea3f00000000">
 			<Metadata name="Catalog.Контрагенты.Attribute.ИНН" id="1fa50dad-b0a9-438e-9f48-fa67897cdfcf"/>
@@ -248,7 +249,7 @@
 		<Metadata name="CommonPicture.Файлы.Picture" id="301078c4-a2e7-4e9f-899c-0cf7c2049a31.0" configVersion="a2cc3f26de1b67458ba89200e1cb42f800000000"/>
 		<Metadata name="CommonPicture.ФорматыФайлов" id="aed21766-fa2e-49b0-8e92-3d6aa02c3d99" configVersion="4a4af7fb3cf99b42b422775deffb300f00000000"/>
 		<Metadata name="CommonPicture.ФорматыФайлов.Picture" id="aed21766-fa2e-49b0-8e92-3d6aa02c3d99.0" configVersion="cae4d4e31b6f3d4d92cd8b4b6b47abca00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="e3f49e94-3c66-4024-8255-874744763183" configVersion="db06bc6b2ef0d04e9bf5abc74dbb173d00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="e3f49e94-3c66-4024-8255-874744763183" configVersion="15ee6e09ee768847ad837b7c655d61e500000000"/>
 		<Metadata name="Configuration.Конфигурация.ClientApplicationInterface" id="0461b5d4-df45-4edb-9dc1-1882d118b8cb.b" configVersion="092b11ea84797540acfc7248f7e4541f00000000"/>
 		<Metadata name="Configuration.Конфигурация.CommandInterface" id="0461b5d4-df45-4edb-9dc1-1882d118b8cb.a" configVersion="478db164c6344340ba448ce99ad3cf4100000000"/>
 		<Metadata name="Configuration.Конфигурация.HomePageWorkArea" id="0461b5d4-df45-4edb-9dc1-1882d118b8cb.8" configVersion="b6e682606fc059439ffa2f541ca1348e00000000"/>
