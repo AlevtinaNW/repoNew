@@ -429,7 +429,7 @@
 		<Metadata name="Document.РеализацияТоваровУслуг.ObjectModule" id="a6b7847f-92eb-4287-8781-7b45e4ac83a5.0" configVersion="217720b8e78044429290244c5f5977d500000000"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Template.Накладная" id="25554a7f-5f65-4c78-bb67-62ce677a462d" configVersion="9e8a941295bada449d9c2c466998f55c00000000"/>
 		<Metadata name="Document.РеализацияТоваровУслуг.Template.Накладная.Template" id="25554a7f-5f65-4c78-bb67-62ce677a462d.0" configVersion="794e5e1f0c03ff49b3f02b048abe619400000000"/>
-		<Metadata name="Document.СчетНаОплатуПокупателю" id="5c08d97f-13f8-471b-b8a0-582b2dc72576" configVersion="7bfb1839f2c13348a7eb621f2caa6ce500000000">
+		<Metadata name="Document.СчетНаОплатуПокупателю" id="5c08d97f-13f8-471b-b8a0-582b2dc72576" configVersion="8eae4a8793614743af943ed6b4f6910500000000">
 			<Metadata name="Document.СчетНаОплатуПокупателю.Attribute.Склад" id="000dd5d5-05a1-4618-9574-b397f364bddd"/>
 			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Услуги.Attribute.Сумма" id="18d15ef2-c1e3-473b-be56-26e96483ce50"/>
 			<Metadata name="Document.СчетНаОплатуПокупателю.TabularSection.Услуги.Attribute.Номенклатура" id="29749a7f-cd39-4129-9f23-843cb2f1a0a1"/>
@@ -452,7 +452,7 @@
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокумента.Form" id="e750e8ff-797d-420e-9564-9b48c9c846c9.0" configVersion="dcca5c395053ce4cb6aa9cd90280319e00000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокументаУправляемая" id="8507ccc4-fe96-429a-8e4e-281515504003" configVersion="ff36acc93491dd45b7dad31a5d6b5cb000000000"/>
 		<Metadata name="Document.СчетНаОплатуПокупателю.Form.ФормаДокументаУправляемая.Form" id="8507ccc4-fe96-429a-8e4e-281515504003.0" configVersion="f0cf742607fe454cacb90533f7b48d9000000000"/>
-		<Metadata name="Document.СчетНаОплатуПокупателю.ObjectModule" id="5c08d97f-13f8-471b-b8a0-582b2dc72576.0" configVersion="8085e6a9d73ff54b86ddde502ca02f6800000000"/>
+		<Metadata name="Document.СчетНаОплатуПокупателю.ObjectModule" id="5c08d97f-13f8-471b-b8a0-582b2dc72576.0" configVersion="2e24a2f0336a6c45b552fbcb910ac5b800000000"/>
 		<Metadata name="Document.УстановкаЦенНоменклатуры" id="edc70a3c-3ed3-402f-9ef9-227ed79fc4d2" configVersion="856d8eb8851d3c449e338ce6c702964400000000">
 			<Metadata name="Document.УстановкаЦенНоменклатуры.Attribute.Информация" id="0891bcad-4260-49a0-8fdc-f1d6226b3e40"/>
 			<Metadata name="Document.УстановкаЦенНоменклатуры.TabularSection.Товары.Attribute.Номенклатура" id="1ac27277-c6d3-4671-8454-8cf176fb80df"/>
