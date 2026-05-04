@@ -85,6 +85,12 @@
 							<ContextMenu name="СкладКонтекстноеМеню" id="20"/>
 							<ExtendedTooltip name="СкладРасширеннаяПодсказка" id="21"/>
 						</InputField>
+						<InputField name="ДоговорКонрагента" id="95">
+							<DataPath>Объект.ДоговорКонрагента</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДоговорКонрагентаКонтекстноеМеню" id="96"/>
+							<ExtendedTooltip name="ДоговорКонрагентаРасширеннаяПодсказка" id="97"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
