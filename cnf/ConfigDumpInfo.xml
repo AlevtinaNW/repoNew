@@ -384,8 +384,8 @@
 		</Metadata>
 		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаДокументаОбычная" id="a4ca8a8e-664e-4135-8d1d-09a3bbda94b4" configVersion="da4bde436767ea4499854e333267822400000000"/>
 		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаДокументаОбычная.Form" id="a4ca8a8e-664e-4135-8d1d-09a3bbda94b4.0" configVersion="44ed282bd034a94ca6fd326c507b062e00000000"/>
-		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаДокументаУправляемая" id="305bbe66-82c8-4012-b8b1-0ba48f1292bc" configVersion="153bf97c6ffc2b41b30cb701197feeab00000000"/>
-		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаДокументаУправляемая.Form" id="305bbe66-82c8-4012-b8b1-0ba48f1292bc.0" configVersion="bd2dd9b8f8c2474caaf647a8c2d159e100000000"/>
+		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаДокументаУправляемая" id="305bbe66-82c8-4012-b8b1-0ba48f1292bc" configVersion="5457709972f3994ca86bcdfc8d8008b100000000"/>
+		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаДокументаУправляемая.Form" id="305bbe66-82c8-4012-b8b1-0ba48f1292bc.0" configVersion="24a5860869ce604a906eca88fcf4e62400000000"/>
 		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаСпискаОбычная" id="f0b014de-7ab7-421e-adfa-4070ec37a48f" configVersion="3565f067dca8944abad4418a1e137daf00000000"/>
 		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаСпискаОбычная.Form" id="f0b014de-7ab7-421e-adfa-4070ec37a48f.0" configVersion="05e9d95e0782d6409cb605a93eed7bb700000000"/>
 		<Metadata name="Document.ПоступлениеТоваровУслуг.Form.ФормаСпискаУправляемая" id="789d2500-8b0d-410e-bcae-2b1bdfeb27c5" configVersion="9116a2940a76a34d804844ac39bef05d00000000"/>
