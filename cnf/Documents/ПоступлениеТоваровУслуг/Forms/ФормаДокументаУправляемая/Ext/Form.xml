@@ -117,6 +117,12 @@
 							<ContextMenu name="ДоговорКонтекстноеМеню" id="14"/>
 							<ExtendedTooltip name="ДоговорРасширеннаяПодсказка" id="15"/>
 						</InputField>
+						<InputField name="ДоговорКонрагента" id="100">
+							<DataPath>Объект.ДоговорКонрагента</DataPath>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ДоговорКонрагентаКонтекстноеМеню" id="101"/>
+							<ExtendedTooltip name="ДоговорКонрагентаРасширеннаяПодсказка" id="102"/>
+						</InputField>
 					</ChildItems>
 				</UsualGroup>
 			</ChildItems>
