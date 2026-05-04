@@ -59,12 +59,14 @@
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСпискаУправляемая.Form" id="87730942-de63-4aa6-a1c5-5142248ce31c.0" configVersion="d471675772f8b04da5f84570c67e04ee00000000"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="2f03ef22-6e4f-4d08-840a-321c758a13d1" configVersion="6b204395def15e45989af181201b92ca00000000"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="2f03ef22-6e4f-4d08-840a-321c758a13d1.0" configVersion="07facf15b057d4468c33e5733880b0de00000000"/>
-		<Metadata name="Catalog.Организации" id="76b9a4dc-72af-4689-94ec-55282c74cc8b" configVersion="2baa9a2bd19d0a458357ec7142941b1500000000">
+		<Metadata name="Catalog.Организации" id="76b9a4dc-72af-4689-94ec-55282c74cc8b" configVersion="57dca69bac73314c8f56dae49fc5301800000000">
 			<Metadata name="Catalog.Организации.Attribute.ВалютныйУчет" id="0658aad5-00f7-4107-832f-4eabda494673"/>
 			<Metadata name="Catalog.Организации.Attribute.ОсновнаяВалюта" id="8a52a870-888f-4048-851f-4b23e7e3f39e"/>
 		</Metadata>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка" id="2ddf4c54-3a50-47d8-8201-25b4382b5821" configVersion="c8ec19c16043a7498e66bdd7ec90e49000000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка.Form" id="2ddf4c54-3a50-47d8-8201-25b4382b5821.0" configVersion="2c3123b36e997447a1a88123e502343500000000"/>
+		<Metadata name="Catalog.Организации.Form.ФормаЭлемента" id="94cf0ff2-4d2f-4b75-a936-ef4689286fe2" configVersion="2639f22934d81a49b2c2aeefd89e9a7200000000"/>
+		<Metadata name="Catalog.Организации.Form.ФормаЭлемента.Form" id="94cf0ff2-4d2f-4b75-a936-ef4689286fe2.0" configVersion="86e8135b3afb7b4996d4b3efdb3b1cd500000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаЭлементаВариант1" id="29415c2f-66b3-416d-accc-4a6a601c1436" configVersion="8ce388ea56af6f429ab3dd5b070cbbda00000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаЭлементаВариант1.Form" id="29415c2f-66b3-416d-accc-4a6a601c1436.0" configVersion="c5c7e58dfecef441908c811e89bf612300000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаЭлементаВариант1.Help" id="29415c2f-66b3-416d-accc-4a6a601c1436.1" configVersion="41f24d5128ba0b44919cd3ba80180c9500000000"/>
