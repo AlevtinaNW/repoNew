@@ -59,7 +59,10 @@
 		<Metadata name="Catalog.Номенклатура.Form.ФормаСпискаУправляемая.Form" id="87730942-de63-4aa6-a1c5-5142248ce31c.0" configVersion="d471675772f8b04da5f84570c67e04ee00000000"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента" id="2f03ef22-6e4f-4d08-840a-321c758a13d1" configVersion="6b204395def15e45989af181201b92ca00000000"/>
 		<Metadata name="Catalog.Номенклатура.Form.ФормаЭлемента.Form" id="2f03ef22-6e4f-4d08-840a-321c758a13d1.0" configVersion="07facf15b057d4468c33e5733880b0de00000000"/>
-		<Metadata name="Catalog.Организации" id="76b9a4dc-72af-4689-94ec-55282c74cc8b" configVersion="35ff7d31045119439768f0b444412c6300000000"/>
+		<Metadata name="Catalog.Организации" id="76b9a4dc-72af-4689-94ec-55282c74cc8b" configVersion="2baa9a2bd19d0a458357ec7142941b1500000000">
+			<Metadata name="Catalog.Организации.Attribute.ВалютныйУчет" id="0658aad5-00f7-4107-832f-4eabda494673"/>
+			<Metadata name="Catalog.Организации.Attribute.ОсновнаяВалюта" id="8a52a870-888f-4048-851f-4b23e7e3f39e"/>
+		</Metadata>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка" id="2ddf4c54-3a50-47d8-8201-25b4382b5821" configVersion="c8ec19c16043a7498e66bdd7ec90e49000000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка.Form" id="2ddf4c54-3a50-47d8-8201-25b4382b5821.0" configVersion="2c3123b36e997447a1a88123e502343500000000"/>
 		<Metadata name="Catalog.Организации.Form.ФормаЭлемента" id="4f6d5b44-a4c9-4dd8-bf30-a7b4c39c7c84" configVersion="503c552732fc8b409fdabc50f3c453aa00000000"/>
