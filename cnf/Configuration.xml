@@ -349,6 +349,7 @@
 			<Catalog>Пользователи</Catalog>
 			<Catalog>Подразделения</Catalog>
 			<Catalog>Проекты</Catalog>
+			<Catalog>ДоговорыКонтрагентов</Catalog>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Document>ПоступлениеТоваровУслуг</Document>
 			<Document>РеализацияТоваровУслуг</Document>
