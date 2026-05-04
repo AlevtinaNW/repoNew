@@ -1,0 +1,1 @@
+"C:\Program Files\1cv8\8.3.27.2074\bin\1cv8.exe" config /F C:\Git\База\Dev1 /NАдминистратор /P123 /DumpConfigToFiles C:\Git\Temp\repoNew\cnf -Format Hierarchical
